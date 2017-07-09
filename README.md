@@ -2,7 +2,7 @@
 An easy-to-use fully-responsive CSS Boilerplate for your html forms. (WIP)
 
 ----------
-<img style="cursor: zoom-in;" src="quickcss.gif" width="600px">
+<img style="cursor: zoom-in;" src="https://github.com/siwalikm/quick-form-css/blob/master/demo.gif" width="600px">
 
 This project contains some css script which converts **any** simple html form into a nice looking minimalistic webform.
 
@@ -17,6 +17,7 @@ Usage
 
 In the **head section** of your html document, include the following two lines:
 >   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@1.0/quick.css">`
+
 >   `<meta name="viewport" content="width=device-width,initial-scale=1">`
 
 **That's it.**
