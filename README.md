@@ -26,7 +26,7 @@ The link includes our **quick.css** to your project and the view port declaratio
 
 Change Color(s)
 -------------
-To change theme or background colors of your form add the following snipped within a `<style>` tag in your head section and change the color values.
+To change theme or background colors of your form add the following snippet within a `<style>` tag in the head section of your webpage.
 
 	    html {
             --main-bg-color: black;
