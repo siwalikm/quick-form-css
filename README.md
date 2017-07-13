@@ -9,7 +9,7 @@ An easy-to-use fully-responsive CSS Boilerplate for your html forms. (WIP)
 This CSS boilerplate converts **any** simple html form into a material design minimalistic webform in 5 seconds.
 
 
-> **Note** [Quick-Form-Css](https://github.com/siwalikm/quick-form-css) is created solely for the purpose of quick templating your html-webforms with the least effort. This project is a *Work-In-Progress* and might result in undesirable results at times.
+> **Note** [Quick-Form-Css](https://github.com/siwalikm/quick-form-css) is created solely for the purpose of quick templating your html-webforms with the zero efforts. This project is a *Work-In-Progress* and might result in undesirable result at times.
 
 ----------
 
