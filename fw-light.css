@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+body {
+  --main-bg-color: white;
+  background: var(--main-bg-color);
+}
+
+.fw-container {
+  --form-theme-color: #1ABC9C;
+  --form-bg-color: white;
+  --button-hover: #4e5050;
+  --input-bg-gray: #E2E5E5;
+
+  border: 7px solid var(--form-theme-color);
+  /*border-top: 7px solid var(--form-theme-color);*/
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--form-bg-color);
+  padding: 35px;
+  width: 700px;
+  margin: 30px auto;
+  margin-top: 30px;
+}
+
+.fw-container h2 {
+  font-size: 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.fw-container h2:after {
+  content: '';
+  margin-top: 31px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -13px;
+  border: 3px solid var(--form-theme-color);
+}
+
+.fw-container input[type="checkbox"] {
+  margin-left: 0px;
+  display: inline-block;
+  position: relative;
+  -webkit-appearance: none;
+  height: 2em;
+  width: 4em;
+  border-radius: 1.5em;
+  background-color: var(--input-bg-gray);
+  border: none;
+  background-clip: padding-box;
+  color: #919FAF;
+  vertical-align: middle;
+}
+
+.fw-container input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  background-color: white;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-clip: padding-box;
+  z-index: 2;
+}
+
+.fw-container input[type="checkbox"]::after {
+  position: absolute;
+  left: 0.675em;
+  top: 0.35em;
+  font-family: "Ionicons";
+  content: "\f122\f12a";
+  letter-spacing: 0.75em;
+  z-index: 1;
+}
+
+.fw-container label {
+  font-weight: 700;
+}
+
+.fw-container input[type="checkbox"]:focus, input[type="radio"]:focus {
+  color: white;
+  border: none;
+  border-color: transparent;
+  background-color: #919FAF;
+}
+
+.fw-container input[type="checkbox"]:checked {
+  color: white;
+  background-color: var(--form-theme-color);
+  border-color: transparent;
+}
+
+.fw-container input[type="checkbox"]:checked::before {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.fw-container form {
+  padding-top: 20px;
+}
+
+.fw-container div {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.fw-container input[type="radio"] {
+  width: 30px;
+  display: inline-block;
+}
+
+.fw-container input, select {
+  border: none;
+  border-bottom: 1px solid var(--form-theme-color);
+  color: black;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  border-radius: 0;
+  line-height: 22px;
+  display: block;
+  padding: 5px;
+  width: 60%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fw-container textarea {
+  border: none;
+  border-bottom: 2px solid var(--form-theme-color);
+  color: black;
+  font-weight: 500;
+  font-size: 1em;
+  border-radius: 0;
+  line-height: 22px;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fw-container input:focus, textarea:focus, select:focus {
+  border-bottom: 3px solid var(--form-theme-color);
+  color: var(--form-theme-color);
+  font-weight: 600;
+  outline: none;
+}
+
+.fw-container input[type='radio']:after {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  top: -2px;
+  left: -1px;
+  margin: -5px;
+  position: relative;
+  background-color: white;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 5px solid var(--input-bg-gray);
+}
+
+.fw-container input[type='radio']:checked:after {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  top: -2px;
+  left: -1px;
+  margin: -5px;
+  position: relative;
+  background-color: var(--form-theme-color);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 5px solid var(--input-bg-gray);
+}
+
+.fw-container textarea {
+  height: 10em;
+}
+
+.fw-container select {
+  margin-top: 5px;
+  background: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+}
+
+.fw-container button, input[type='button'], input[type='reset'], input[type='submit'] {
+  font-family: inherit;
+  line-height: 0;
+  font-size: .8em;
+  padding: 0;
+  width: 86px;
+  height: 36px;
+  border: 0;
+  cursor: pointer;
+  background-color: var(--form-theme-color);
+  color: white;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.fw-container select[multiple] {
+    background: none;
+}
+
+.fw-container button:hover, input[type='button']:hover, input[type='reset']:hover, input[type='submit']:hover {
+  background: var(--button-hover);
+  transition: all .3s;
+}
+
+@media screen and (max-width: 900px) {
+  .fw-container {
+    width: 70%;
+  }
+  .fw-container input, select {
+    width: 100%;
+  }
+}
