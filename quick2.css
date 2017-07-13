@@ -214,6 +214,10 @@ body {
   text-transform: uppercase;
 }
 
+.fw-container select[multiple] {
+    background: none;
+}
+
 .fw-container button:hover, input[type='button']:hover, input[type='reset']:hover, input[type='submit']:hover {
   background: rgb(103, 179, 187);
   transition: all .3s;
