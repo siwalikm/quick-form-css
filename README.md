@@ -33,7 +33,7 @@ Usage
  2. In the **head section**, also add the meta viewport for the form to work correctly on handheld devices.
 >   `<meta name="viewport" content="width=device-width,initial-scale=1">`
 
- 3. Wrap your html form in a **`div`** with **`class="qfcss"`** like this:
+ 3. Wrap your html form in a **`div`** with **`class="fw-container"`** like this:
 >   <img style="cursor: zoom-in;" src="https://github.com/siwalikm/quick-form-css/blob/master/resource/addClass.png?raw=true" width="350px">
 
 **Awesome, you did it!**
@@ -42,7 +42,7 @@ Change Color(s)
 -------------
 To change theme color or background color of your form, edit the values of these css variables in your stylesheet.
 
-    .qfcss {
+    .fw-container {
 		  --form-theme-color: crimson;
 		  --form-bg-color   : white;
 		  --button-hover    : #4e5050; 
