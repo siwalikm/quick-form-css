@@ -28,7 +28,7 @@ Usage
 
  1. In the **head section** of your html document, include the css theme you like:
 (using the dark theme for example)
->   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.0/qfc-dark.css">`
+>   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2/qfc-dark.css">`
 
  2. In the **head section**, also add the meta viewport for the form to work correctly on handheld devices.
 >   `<meta name="viewport" content="width=device-width,initial-scale=1">`
