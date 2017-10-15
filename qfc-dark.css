@@ -23,24 +23,58 @@ body {
 }
 
 .qfc-container h1,h2,h3,h4,h5,h6 {
-  font-size: 30px;
   text-decoration: none;
   position: relative;
-  margin: 50px 0;
+  //margin: 50px 0;
+  font-weight: 400;
+  margin: 0;
 }
 
-.qfc-container h1:after,
-.qfc-container h2:after,
-.qfc-container h3:after,
-.qfc-container h4:after,
-.qfc-container h5:after,
-.qfc-container h6:after {
+.qfc-container h1 {
+  font-size: 112px;
+  font-weight: 300;
+  letter-spacing: -5px;
+  line-height: 128px;
+}
+
+.qfc-container h2 {
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.qfc-container h3 {
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.qfc-container h4 {
+  font-size: 34px;
+  line-height: 52px;
+}
+
+.qfc-container h5 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+.qfc-container h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.qfc-container h1:not(.no-underline):after,
+.qfc-container h2:not(.no-underline):after,
+.qfc-container h3:not(.no-underline):after,
+.qfc-container h4:not(.no-underline):after,
+.qfc-container h5:not(.no-underline):after,
+.qfc-container h6:not(.no-underline):after {
   content: '';
-  margin-top: 31px;
+  position: relative;
+  display: block;
+  bottom: 0;
+  margin-bottom: 30px;
   width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -13px;
   border: 3px solid var(--form-theme-color);
 }
 
