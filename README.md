@@ -47,3 +47,9 @@ To change theme color or background color of your form, edit the values of these
 		  --form-bg-color   : white;
 		  --button-hover    : #4e5050;
      }
+
+Titles and Sub-titles(s)
+-------------
+[Quick-Form-Css](https://github.com/siwalikm/quick-form-css) supports meterial design specifications for headers from h1 to h6 [(link)](http://brm.io/material-design-type/).
+
+All headers tags come with the default underline style. Please add class *"no-underline"* in your header element if you want to modify this behaviour.
