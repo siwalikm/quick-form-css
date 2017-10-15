@@ -25,9 +25,8 @@ body {
 .qfc-container h1,h2,h3,h4,h5,h6 {
   text-decoration: none;
   position: relative;
-  //margin: 50px 0;
+  margin: 50px 0 0;
   font-weight: 400;
-  margin: 0;
 }
 
 .qfc-container h1 {
@@ -76,6 +75,15 @@ body {
   margin-bottom: 30px;
   width: 100%;
   border: 3px solid var(--form-theme-color);
+}
+
+.qfc-container .no-underline + h1,
+.qfc-container .no-underline + h2,
+.qfc-container .no-underline + h3,
+.qfc-container .no-underline + h4,
+.qfc-container .no-underline + h5,
+.qfc-container .no-underline + h6 {
+  margin-top: 0;
 }
 
 .qfc-container input[type="checkbox"] {
