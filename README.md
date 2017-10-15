@@ -1,4 +1,6 @@
 # Welcome to quick-form-css
+> Current version 2.2.1 fixes header tag issue wrt [pr #3](https://github.com/siwalikm/quick-form-css/pull/3)
+
 An easy-to-use fully-responsive CSS Boilerplate for your html forms. (WIP)
 
 ----------
@@ -16,8 +18,8 @@ This CSS boilerplate converts **any** simple html form into a material design mi
 Themes
 -------------
 [Quick-Form-Css](https://github.com/siwalikm/quick-form-css) comes with two themes by default, **qfc-dark** and **qfc-light**.
-**qfc-dark.css**  is the theme on the left with Google forms inspired style [(url)](https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2/qfc-dark.css),
-**qfc-light.css** is the theme on the right with a more minimal look. [(url)](https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2/qfc-light.css).
+**qfc-dark.css**  is the theme on the left with Google forms inspired style [(url)](https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2.1/qfc-dark.css),
+**qfc-light.css** is the theme on the right with a more minimal look. [(url)](https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2.1/qfc-light.css).
 
 <img style="cursor: zoom-in;" src="https://github.com/siwalikm/quick-form-css/blob/master/resource/themes.jpg?raw=true">
 
@@ -27,8 +29,12 @@ Usage
 -------------
 
  1. In the **head section** of your html document, include the css theme you like:
-(using the dark theme for example)
->   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2/qfc-dark.css">`
+
+>   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2.1/qfc-dark.css">`
+
+or
+
+>   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2.1/qfc-light.css">`
 
  2. In the **head section**, also add the meta viewport for the form to work correctly on handheld devices.
 >   `<meta name="viewport" content="width=device-width,initial-scale=1">`
