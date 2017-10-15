@@ -72,7 +72,7 @@ body {
   position: relative;
   display: block;
   bottom: 0;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
   width: 100%;
   border: 3px solid var(--form-theme-color);
 }
