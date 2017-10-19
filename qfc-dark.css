@@ -5,6 +5,40 @@ body {
   background: var(--main-bg-color);
 }
 
+.group{
+  position:relative;
+}
+
+input[type="text"], input[type="tel"], input[type="email"]{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+label.inputLabel{
+  color:#999;
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:5px;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input[type="text"]:focus ~ label, input[type="text"]:valid ~ label,
+input[type="tel"]:focus ~ label, input[type="tel"]:valid ~ label,
+input[type="email"]:focus ~ label, input[type="email"]:valid ~ label		{
+  top:-15px;
+  font-size:14px;
+  color:#000000;
+}
+
 .qfc-container {
   --form-theme-color: #00bcd4;
   --form-bg-color: white;
