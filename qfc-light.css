@@ -5,7 +5,7 @@ body {
   background: var(--main-bg-color);
 }
 
-.group{
+.qfc-container div:nth-of-type(-n+3){
   position:relative;
 }
 
