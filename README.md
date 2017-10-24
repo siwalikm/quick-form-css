@@ -52,7 +52,11 @@ To change theme color or background color of your form, edit the values of these
 		  --form-theme-color: mediumaquamarine;
 		  --form-bg-color   : white;
 		  --button-hover    : #4e5050;
+		  --input-text-color: black;
      }
+	 body {
+    	  --main-bg-color: white;
+	}
 
 Titles and Sub-titles(s)
 -------------
