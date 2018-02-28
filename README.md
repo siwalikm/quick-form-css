@@ -1,4 +1,7 @@
+<img style="display:inline-block;cursor: zoom-in;" src="https://i.imgur.com/NY4czoF.png" width="100px">
+
 # Welcome to quick-form-css
+
 
 An easy-to-use fully-responsive CSS Boilerplate for your html forms.
 
