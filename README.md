@@ -1,13 +1,10 @@
-<img style="display:inline-block;cursor: zoom-in;" src="https://i.imgur.com/NY4czoF.png" width="100px">
+<img style="display:inline-block;cursor: zoom-in;" src="https://i.imgur.com/NY4czoF.png" width="200px">
 
-# Welcome to quick-form-css
-
-
-An easy-to-use fully-responsive CSS Boilerplate for your html forms.
+##### Quick Form CSS is an easy-to-use fully-responsive CSS Boilerplate for simple html forms.
 
 ----------
 <img style="cursor: zoom-in;" src="https://github.com/siwalikm/quick-form-css/blob/master/resource/demoImg.gif?raw=true" width="100%">
-This CSS boilerplate converts any simple html form into a material design minimalistic webform in 5 seconds.
+This CSS boilerplate converts any simple html form into a material design minimalistic webform in seconds.
 
 
 > Current version 2.2.2 enables Google like input placeholder transitions
