@@ -46,7 +46,7 @@ body {
     width: 200px;
     display: block;
     border: none;
-    padding: 12px !important;
+    padding: 10px !important;
     border-bottom: solid 1px var(--form-theme-color);
     -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
     transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
@@ -64,7 +64,7 @@ input:valid {
 .qfc-container input::-webkit-input-placeholder {
     font-family: 'roboto', sans-serif;
     -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .qfc-container input:focus::-webkit-input-placeholder,
@@ -152,7 +152,7 @@ h6 {
     -webkit-appearance: none;
     height: 2em;
     width: 4em;
-    border-radius: 1.5em;
+    border-radius: 1.7em;
     background-color: var(--input-bg-gray);
     border: none;
     background-clip: padding-box;
@@ -251,7 +251,7 @@ select {
     border-radius: 0;
     line-height: 22px;
     display: block;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
