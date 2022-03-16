@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="static/css/qfc-dark.css">
+  <!-- <link rel="stylesheet" href="qfc-light.css"> -->
+
+</head>
+
+<body>
+  <div class="qfc-container">
+    <h2>Keyword Extraction</h2>
+    <label>Rút trích từ khoá từ một văn bản</label>
+    <form action="{{ url_for('output')}}" method="post">
+      <div>
+        <div>
+          <div>
+            <textarea name="text"></textarea>
+          </div>
+        </div>
+        
+        <div>
+          <button type="submit" name="submit_button">Submit</button>
+        </div>
+        <label>Các từ khoá: </label>
+        <ul>
+          {% for keyword in keywords %}
+          <li>{{keyword}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </form>
+  </div>
+</body>
+
+<style>
+  a {
+    color :#00bcd4;
+    text-decoration: none;
+  }
+</style>
+</html>
